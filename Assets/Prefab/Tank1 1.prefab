@@ -273,6 +273,7 @@ GameObject:
   - component: {fileID: 2373795057726613729}
   - component: {fileID: -3581825368638363252}
   - component: {fileID: -1425951007395277110}
+  - component: {fileID: -4469525279009933947}
   m_Layer: 0
   m_Name: Tank1 1
   m_TagString: Player
@@ -496,6 +497,20 @@ MonoBehaviour:
   vida: 100
   barraVida: {fileID: 8555162149551980246}
   textoVida: {fileID: 8810265638962842690}
+--- !u!114 &-4469525279009933947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2205180076462927843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d4cb1ebee3396944bf09e0f20f1afc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  textoKills: {fileID: 3051351357734877787}
+  kills: 0
 --- !u!1 &2553198234150332047
 GameObject:
   m_ObjectHideFlags: 0
