@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class ActivarPanel : MonoBehaviour
 {
-    // Arrastra aquí el panel desde el inspector
+    // Arrastra aquï¿½ el panel desde el inspector
     public GameObject panelMeta;
 
     private void Start()
     {
-        // Asegurarse de que el panel esté desactivado al inicio
+        // Asegurarse de que el panel estï¿½ desactivado al inicio
         if (panelMeta != null)
             panelMeta.SetActive(false);
     }
